@@ -1,0 +1,95 @@
+header{
+    background: url("imagenes/bannerverde.png");
+    padding: 80px ;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 250px;
+    position: absolute;
+    right: 1100px;
+    top: 0.5px;
+    bottom: 1px;
+}
+
+nav{
+    display: inline;
+    position: relative;
+    top: 30px;
+    left: 500px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none ;
+}
+
+nav a:hover{
+    color: mediumorchid;
+    text-decoration: underline;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #fefefefe;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+
+.principal p{
+    margin: 0 0 1em;
+
+}
+
+.principal strong{
+    font-weight: bold ;
+}
+.principal em{
+    font-style: italic;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(aquamarine,cadetblue);
+
+}
+
+.mapa p{
+    margin: 0 0 2em ;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer{
+     background: url("imagenes/bannerverde.png");
+    padding: 100px;
+}
+
+.logofooter{
+    width: 400px;
+    left: 100px;
+    bottom: 1px;
+}
