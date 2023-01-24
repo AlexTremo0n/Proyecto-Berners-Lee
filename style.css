@@ -1,26 +1,39 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
-    background: url("imagenes/bannerverde.png");
-    padding: 80px ;
+    padding: 60px 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.1s;
 }
 .caja{
     width: 940px;
-    position: relative;
     margin: 0 auto;
+}
+
+header.abajo{
+    background: white;
+    padding: 60px;
+
 }
 
 .logo{
     width: 250px;
     position: absolute;
-    right: 1100px;
-    top: 0.5px;
-    bottom: 1px;
+    right: 85%;
+    top: 20%;
 }
 
 nav{
-    display: inline;
+    display: flex;
     position: relative;
     top: 30px;
-    left: 500px;
+    left: 400px;
 }
 nav li{
     display: inline;
@@ -35,16 +48,14 @@ nav a{
 }
 
 nav a:hover{
-    color: mediumorchid;
+    color: cadetblue;
     text-decoration: underline;
 }
 
+
 .principal{
     padding: 3em 0;
-    background: #fefefefe;
-    width: 940px;
-    margin: 0 auto;
-
+    background:aquamarine;
 }
 
 .titulo-principal{
@@ -58,10 +69,6 @@ nav a:hover{
 .principal p{
     margin: 0 0 1em;
 
-}
-
-.principal strong{
-    font-weight: bold ;
 }
 .principal em{
     font-style: italic;
@@ -83,13 +90,46 @@ nav a:hover{
     margin: 0 auto;
 }
 
+.diferenciales{
+    padding: 3em 0;
+    background-color:aquamarine;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 40%;
+    transition: 400ms;
+    box-shadow: 10px 10px 40px 10px #00e0fe;
+
+}
+
 footer{
-     background: url("imagenes/bannerverde.png");
-    padding: 100px;
+    text-align: center;
+    background-color: white;
+    padding: 40px;
 }
 
 .logofooter{
-    width: 400px;
-    left: 100px;
-    bottom: 1px;
+    width: 100px;
+}
+
+.copyright{
+    color: black;
+    font-size: 13px;
+    margin: 20px;
 }
