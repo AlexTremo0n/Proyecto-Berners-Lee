@@ -55,7 +55,7 @@ nav a:hover{
 
 .principal{
     padding: 3em 0;
-    background:aquamarine;
+    background:white;
 }
 
 .titulo-principal{
@@ -136,15 +136,79 @@ nav a:hover{
 
 
 .card:nth-of-type(1) .img_back{
-    background-image: url(../Proyecto-Berners-Lee/imagenes/bannerverde.png);
+    background-image: url(/imagenes/bannerverde.png);
 
 }
 .card:nth-of-type(2) .img_back{
-    background-image: url(../Proyecto-Berners-Lee/imagenes/bannerverde.png);
+    background-image: url(/imagenes/bannerverde.png);
     
 }
 .card:nth-of-type(3) .img_back{
-    background-image: url(../Proyecto-Berners-Lee/imagenes/bannerverde.png);
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(4) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(5) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(6) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(7) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(8) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(9) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(10) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(11) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(12) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(13) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(14) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(15) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(16) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(17) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(18) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
+    
+}
+.card:nth-of-type(19) .img_back{
+    background-image: url(/imagenes/bannerverde.png);
     
 }
 
@@ -153,7 +217,7 @@ nav a:hover{
 }
 
 .card .description{
-    background: white;
+    background: aquamarine;
     margin-top: -10px;
     padding: 20px;
     border-radius: 0px 0px 20px 20px;
@@ -196,7 +260,6 @@ nav a:hover{
 
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(aquamarine,cadetblue);
 
 }
 
@@ -210,33 +273,6 @@ nav a:hover{
     margin: 0 auto;
 }
 
-.diferenciales{
-    padding: 3em 0;
-    background-color:aquamarine;
-}
-
-.contenido-diferenciales{
-    width: 640px;
-    margin: 0 auto;
-}
-
-.lista-diferenciales{
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.items{
-    line-height: 1.5;
-    font-weight: bold;
-}
-
-.imagen-diferenciales{
-    width: 40%;
-    transition: 400ms;
-    box-shadow: 10px 10px 40px 10px #00e0fe;
-
-}
 
 footer{
     text-align: center;
