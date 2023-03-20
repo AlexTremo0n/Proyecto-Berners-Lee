@@ -536,33 +536,20 @@ body {
         font-size: 1.8rem;
     }
 
-    .price_element{
-        width: 90%;
-    }
-
-    .price_element--best{
-        width: 90%;
-        /* padding: 40px; */
-    }
-
-    .price_price{
-        font-size: 2rem;
-    }
-
-    .testimony{
+    .team{
         --padding-container: 60px 0;
     }
 
-    .testimony_container{
+    .team_container{
         grid-template-columns: 28px 1fr 28px;
         gap: .9em;
     }
 
-    .testimony_arrow{
+    .team_arrow{
         width: 100%;
     }
 
-    .testimony_course{
+    .team_course{
         margin-top: 15px;
     }
 
